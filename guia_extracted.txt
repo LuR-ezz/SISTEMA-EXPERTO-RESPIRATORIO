@@ -1,0 +1,2200 @@
+Āąāā
+āāāā
+figura2-4
+FāāĬ,
+ăāāāā
+Normal
+Título 1
+Título 2
+Título 3
+Fuente de párrafo predeter.
+Tabla normal
+Sin lista
+Tabla con cuadrícula
+Epígrafe
+Hipervínculo
+ſ99ƿ
+ſ99ƿ
+ſ99ƿ
+_s1282
+_s1280
+_s1278
+_s1276
+_s1274
+_s1272
+_s1270
+_s1269
+_s1268
+_s1264
+_s1265
+_s1266
+_s1267
+_s1271
+_s1273
+_s1275
+_s1277
+_s1279
+_s1281
+ſ99ƿ
+_s1297
+_s1295
+_s1293
+_s1292
+_s1291
+_s1287
+_s1288
+_s1289
+_s1290
+_s1294
+_s1296
+Unknown
+Times New Roman
+Symbol
+Arial
+Arial Black
+Copperplate Gothic Bold
+Calibri Light
+Calibri
+Courier New
+Wingdings
+Cambria Math
+&Guía para construir un Sistema Experto
+Lab. de Sistemas Inteligentes
+Jorge Gutierrez
+mailto:kemper@servidor.unam.mx
+Root Entry
+Data
+1Table
+WordDocument
+SummaryInformation
+DocumentSummaryInformation
+CompObj
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿì
+bjbjt
+GUÍA RÁPIDA PARA CONSTRUIR UN SISTEMA EXPERTODr. Nicolás Kemper ValverdeLaboratorio de Sistemas InteligentesCentro de Ciencias Aplicadas y Desarrollo TecnológicoApartado Postal 70-470, C.P. 04511Coyoacán , México D.F.MEXICOEmail: 
+ HYPERLINK 
+mailto:kemper
+servidor.unam.mx
+kemper
+servidor.unam.mx
+RESUMENEsta guía ha sido diseñada como tutorial para desarrollar de manera rápida un Sistema Experto y provee principalmente una perspectiva básica del diseño y desarrollo de la base de conocimiento.  Como premisa hay que mencionar que la aplicación de un sistema experto es más eficiente cuando el dominio de aplicación es suficientemente específico para poder delimitar con claridad los alcances del trabajo del sistema experto.Paso 1. DESCRIPCION DEL DOMINIO DE APLICACIONEl área de servicios de salud ha sido seleccionada para la explicación de esta guía rápida para el desarrollo de un sistema experto. El rápido aumento en los costos en los cuidados de salud combinada con la creciente competitividad, ha generado un gran interés en métodos alternativos para financiar y lograr estos servicios. Se han desarrollado muchas formas para manejar los problemas de aumento de costos en los servicios de salud. Una de éstas alternativas es el pago previo por los servicios, otra es pago de cuota por servicio.Una variación del servicio de prepago en la Organización de Servicios de Salud (Health Maintenance Organization, HMO) que provee servicios médicos a sus miembros a cambio de impuestos de prepago, lo que ha sido beneficioso para el control de sus costos para ésta organización.Generalmente, organizaciones como esta han tenido éxito ofreciendo sus servicios basados en las necesidades de sus miembros. Han disminuido sus costos de hospitalización y son menores que aquéllos que basan sus servicios en pago por servicio. Para contener los costos, la HMO debe limitar la capacidad de servicio de ambulancias. Este servicio es usado más frecuentemente en los planes de organizaciones de servicios de salud de prepago que en las de planes por cuota.Para asegurar que los problemas serios de salud tengan prioridad de obtener tratamiento, el administrador de servicios de salud, en este ejemplo, es necesario que tenga como asistente personal a un SISTEMA EXPERTO para que haga el chequeo para decidir al respecto. En esta situación, el criterio pertinente para diagnosticar el tratamiento puede ser incorporado al SISTEMA EXPERTO.El personal que hace el diagnóstico médico puede actuar rápidamente de acuerdo al procedimiento de chequeo contestando unas preguntas sobre el SISTEMA EXPERTO. Después, el sistema hará otras preguntas de acuerdo a las respuestas recibidas. Un desarrollo completo del sistema debe cubrir todos los estándares generalizados para establecer un nivel apropiado de servicio dada la aparente seriedad de la condición del individuo. El problema de diagnóstico de la HMO es similar al que se enfrentan otras organizaciones. Por ejemplo, los sistemas basados en conocimiento construidos para tomar decisiones satisfactorias relacionadas con el diagnóstico para la solicitud de préstamo de un cliente, así como para la solicitud de servicios médicos en un empleo. Todos los problemas de diagnóstico son similares de algún modo, el diagnóstico de HMO tiene requerimientos únicos, porque pueden surgir riesgos de salud e incluso riesgos de vida.La aplicación de la tecnología de SISTEMA EXPERTO al problema de la HMO provee potencialmente estos beneficios:Un nivel consistente de diagnóstico independientemente de quien lo haga.El SISTEMA EXPERTO hace posible la toma de decisiones del personal que no estaba autorizado para tomarlas.El SISTEMA EXPERTO asegura que el diagnóstico es siempre hecho usando los mismos criterios. Se eliminan las posibilidades de tratos inapropiados a los pacientes  (discriminación por raza, sexo, afiliación política, por ejemplo), y en caso de conflicto, los criterios para una decisión pueden ser juzgados.El SISTEMA EXPERTO puede ser usado para entrenar personal en los diagnósticos médicos, lo cual libera a personal con más experiencia para otras actividades.EL SISTEMA EXPERTO puede ser duplicado y usado donde sea que los miembros den el servicio, asegurando un nivel consistente de servicio a la organización.El SISTEMA EXPERTO puede ser fácilmente modificado para reflejar nuevas políticas o cambios en éstas y es rápidamente duplicable y distribuible para implementar los cambios uniformemente sin necesidad de gastos de readaptación.Estos beneficios son similares a los que tienen muchas organizaciones que han usado tecnologías de SISTEMA EXPERTO para solucionar sus problemas de negocios.Paso 2: Aislar el área de desarrollo del SISTEMA EXPERTO.Aunque el diagrama de bloques del área de estudio está compactada en la figura 2-2, muchos casos de desarrollo requieren muchas capas en la descripción gráfica para mover de la amplia perspectiva de la industria a aislar el área funcional del prototipo seleccionado de desarrollo.Existen muchas oportunidades para desarrollar un SISTEMA EXPERTO en muchas organizaciones. Generalmente, un sector puede ser aislado de la fase de conceptualización inicial o prototipo.En el ejemplo de la HMO, la función de servicio de miembros es seleccionada para estudiarse porque es una estrategia importante para el éxito de la organización.En el caso del ejemplo, la solución desarrollada por el SISTEMA EXPERTO puede ser más relacionada con conceptos ilustrativos en el proceso incremental de conocimiento que con dar una solución amplia para algún problema real. Por tal motivo, los aspectos seleccionados del sistema son asilados para ser examinados mientras que otros aspectos son ignorados intencionalmente aunque podrían no ser tratados así en el caso actual del desarrollo completo.Sin embargo, el potencial del ejemplo del SISTEMA EXPERTO evoluciona en un sistema más amplio que después ayude a hacer más eficaz la función de servicio mediante un vínculo a la base de datos de miembros, así como un vínculo al desplegado de control de servicios.
+ SHAPE  
+ MERGEFORMAT 
+ SHAPE  
+ MERGEFORMAT 
+Paso 3: Decidir un objetivo para ser el prototipo.Una vez en el área, como el servicio de la HMO, es aislado para su estudio, la oportunidad precisa o el problema en el área es asignado como objetivo para la aplicación del SISTEMA EXPERTO. En el caso del ejemplo, el intento inicial es construir un asistente personal con SISTEMA EXPERTO independiente quien revisa a los clientes para obtener atención del HMO. Por lo general los clientes requieren atención médica para casos nuevos o seguimiento de casos.Mientras que algunos clientes requieren información u otros servicios, los que no son miembros son los primeros candidatos a la solicitud de membresías de la HMO.El diagrama de bloque de la figura 2-3 ayuda a definir los factores críticos en la decisión de objetivos en el área del prototipo. Los tres factores críticos seleccionados para este primer intento del SISTEMA EXPERTO en el diagnóstico médico son:Estado de la HMO: 
+El cliente tiene membresía de servicios? Esto está influenciado por dos cosas: la declaración del cliente como miembro seguido por una verificación en el número de identificación de miembro en un libro de control (más adelante un vínculo automático a la base de datos de miembros de la HMO hará que manualmente esta fase sea obsoleta).Razones: 
+Cuál es la razón por la que el paciente busca el servicio? 
+Es un caso nuevo, seguimiento de caso u 
+ tipo de visita?Problema: 
+Qué tan seria es la condición del paciente? Dos aspectos se involucran. 
+Temperatura anormal o presenta otros síntomas que requieran servicios de primeros auxilios?
+Figura 2-3. Diagrama de bloque de la situación decidida del prototipo inicial: Asistente de Diagnóstico Médico de la HMODependiendo de la respuesta, el paciente puede ser atendido:Atención de nivel 1.Atención de nivel 2.Atención de nivel 3.Información u otros servicios.Atención a pacientes que no son miembros.Los requerimientos del ejemplo han sido simplificados para permitir enfocar situaciones que ilustren aspectos del software desarrollado.Paso 4: Crear un diagrama de dependencias.Este paso consiste en transformar el diagrama de bloques del paso 2 a un diagrama de dependencia, como se muestra en la figura 2-4. Un diagrama de dependencia indica las relaciones (dependencias) entre factores críticos, las preguntas, reglas, valores y recomendaciones hechas por el prototipo del SISTEMA EXPERTO. Es una gráfica completa de los enunciados del SISTEMA EXPERTO. Funciona como el modelo en papel de cómo escribir o codificar la base de conocimientos actual.Para comenzar a crear el diagrama de dependencia, es útil colocar horizontalmente el diagrama de bloques terminado en el paso anterior. Esto hace aparente una relación entre el diagrama de bloques obtenido y el resultado deseado en el paso 3.Para crear el diagrama de este paso, inicie dibujando cajas con triángulos anexados de cualquier factor crítico hallado en el paso 2. En este caso, estos factores son los estados del mimbro, razones y el problema. Porque 
+razones
+ alimenta directamente a recomendación final, la caja intermediaria puede ser eliminada del diagrama de dependencia. Luego, con líneas rectas proviniendo de los triángulos escriba una frase o palabra que describa mejor el elemento que influenciará la salida del factor crítico. Este elemento puede ser llamado 
+variable
+. Bajo la línea escriba todos los posibles valores que esa variable pueda tener. Además, escriba nombres para los valores que puede tener bajo cada caja que representa un factor crítico. Haga lo mismo para la caja de recomendación.En este punto, se acostumbra etiquetar los triángulos de derecha a izquierda con números para identificar sus estados posteriores en el conjunto de reglas del SISTEMA EXPERTO. Comience con el triángulo final que une todas las líneas de entrada con la caja de recomendación final. (ver figura 2-4)Este sencillo modelo obliga una evaluación de cada pieza del rompecabezas del SISTEMA EXPERTO. La evaluación a menudo causa un proceso de modelado que se repite varias veces (con varios regresos al paso 2) hasta modelar una solución correcta. Esto es normal. El hecho de poner líneas, palabras en papel y buscar resultados origina un proceso creativo y crítico. Generalmente, después de varias pasadas se logra obtener un diagrama de dependencias convincente.En la práctica, comúnmente se tiene un conjunto de diagramas de dependencia ligados jerárquicamente. Uno de ellos se muestra en la figura 2-4 puede representar el diagrama del nivel más alto.
+Paso 5: Crear las tablas de decisión.Crear una tabla de decisión, como la que se muestra en la figura 2-5, cada triángulo en el diagrama de dependencia es el paso principal de este modelado. La tabla de decisión es necesaria para mostrar las relaciones internas de los valores de salidas con cualquier fase intermedia o la recomendación final del SISTEMA EXPERTO.Preparar la tabla de decisión es el resultado directo de comparar las figuras 2-5, 2-7 y 2-9. El proceso comienza con la planeación del número de renglones necesarios en la tabla. Esto puede ser determinado por el listado de todos los factores, ahora llamados condiciones, que llegan al triángulo bajo consideración. En la figura 2-5, la planeación de la tabla de decisión surge del conjunto de reglas, en la que intervienen las tres condiciones, cada una de ellas puede tomar un número diferente de valores. El estado de membresía, la primera condición sólo puede tomar dos valores, estos son miembro y no_miembro.La información proviene del diagrama de dependencia y puede ser llevado a la tabla de decisión fácilmente.Cuando los valores y condiciones estén totalmente listadas, puede determinarse el número de renglones de la tabla de decisión. En este caso hay 12 renglones: dos posibilidades para el estado de membresía, por tres posibilidades para razones, por dos opciones para el problema. Este número representa todas las posibles combinaciones de las condiciones que pueden ocurrir hasta este punto en el SISTEMA EXPERTO. Los 12 renglones son organizados como se ve en la tabla completa de decisión de la figura 2-5. La creación de esta tabla comienza con dibujar una tabla vacía que consta solo de los renglones que serán las reglas de la base de conocimiento, y las etiquetas de los renglones. Estas etiquetas son los nombres de las condiciones y el encabezado es agregado en un renglón extra para identificar las posibles combinaciones de los valores de salida. Este modelo permite evaluar todos los valores de las diferentes condiciones.  Para simplificar la inserción de valores en cada casilla de la tabla, es conveniente dibujar líneas horizontales dividiendo los renglones.El lugar donde deberá dibujarse una línea divisoria está determinado por el número de valores de la fase de planeación anterior. Por ejemplo, la primera condición, estado de membresía, tiene sólo dos valores posibles. Así que la primera línea divide el renglón en mitades entre el renglón 6 y 7. Cada mitad ahora está separada y será considerada en la siguiente división de los renglones para la condición 2.La segunda condición, razones, tienes tres posibles valores, por lo que se dividirá en 3 partes. Este corte en tres debe hacerse dos veces, una para la mitad superior de los renglones y otra para la mitad inferior.La condición final, problema, requiere dos secciones y tiene que hacerse para cada una de las seis subdivisiones. Entonces el último corte divide en dos partes los renglones. Los valores ahora son insertados en las celdas vacías. Como es evidente el valor miembro de la columna del estado de membresía es repetida en la mitad de las celdas. La siguiente columna, tiene tres valores para la segunda condición y se repiten en las dos mitades originalmente construidas en la tabla. Una columna más a la derecha, se repiten los dos valores para la tercera condición en cada par de renglones.Con todas las celdas llenas, sigue evaluando cada combinación de valores y escribe el valor de salida en la ultima columna. No hay una fórmula sencilla para hacer esto. Esto requiere analizar cuidadosamente cada renglón, o en este caso, evaluar todos los valores listados, y tener un experto para determinar que se puede concluir de la evidencia dada. Una evaluación de los primero cuatro renglones se lee como sigue:Si estado de membresía es miembro, razones es caso nuevo y problema es serio, entonces la persona debe ser atendida en el nivel 1 (este nivel es para pacientes cuyos casos son problemas serios).Si estado de membresía es miembro, razones es caso nuevo y problema no es serio, entonces la persona debe ser atendida en el nivel 2 (para pacientes con problemas no serios).Si estado de membresía es miembro, razones es seguimiento de caso  y problema es serio, entonces la persona debe ser atendida en el nivel 1 (este nivel es para pacientes cuyos casos son problemas serios).Si estado de membresía es miembro, razones es seguimiento de caso y problema es serio, entonces la persona debe ser atendida en el nivel 3 (pacientes con seguimiento de casos no serios).Paso 6: Escribir las reglas IF-THEN.Escribir LAS reglas para la base de conocimiento es un ejercicio sencillo en este punto del desarrollo. Generalmente cada regla de la tabla de decisión se convierte en una regla SI-ENTONCES, como se muestra en las figuras 2-6, 2-8 y 2-10.La estructura y sintaxis de una regla está dad en la figura 2-11. Básicamente, una regla empieza con la palabra IF seguida por las condiciones. Una serie de condiciones pueden ser enlazadas con operadores lógicos OR (o) y AND (y). AND significa que las condiciones a ambos lados del operador deben ser verdaderas para que la regla se dispare. OR significa que una o ambas condiciones deben ser verdaderas.La primera regla de la figura 2-6 muestra el uso de AND y OR. El uso de OR permite combinar las reglas B1 y B3, lo que explica porqué la tabla de decisión llama a 6 de las reglas y el proceso de conversión llama sólo a 5 del primer conjunto de reglas. La aplicación de OR en la regla 11, se muestra en la figura 2-10, explica porque la tabla de decisión reducida de la figura 2-9 produce sólo 3 reglas. Si todas las condiciones de una regla son verdaderas, la cláusula THEN o conclusión de la regla se dispara. Esto provoca que la variable llamada en el lado izquierdo del signo de igual en la cláusula THEN se asigne su valor a la variable del lado derecho.Por ejemplo, esta regla simple:RULE 6	IF miembro 
+ si AND	    identificación_válida 
+ si		THEN estado_membresia 
+ miembro;Esta regla dice, 
+Si durante la consulta, el valor de la variable 
+miembro
+ se encuentra 
+, Y el valor de la variable 
+identificación_válida
+, ENTONCES a la variable 
+estado_membresia
+ asignarle 
+miembro
+.Reglas para nombrar variables y valores, así como el nombre de la regla se identifican en la figura 2-12. Se muestra una referencia de las palabras clave que no se permiten en los nombres de Reglas en la figura 2-13.Siguiendo a la conclusión THEN, la palabra clave ELSE y la conclusión alternativa puede ser agregada a la regla opcionalmente. Cuando se presenta en una regla dice: 
+Si la premisa en la regla es sabido que no es verdadera, hacer esto
+. Por ejemplo, consideremos:RULE evitar	IF miembro 
+ si AND	    identificación_válida 
+ si		THEN estado_membresia 
+ miembroELSE estado_membresia 
+ no_miembro;Esta regla expresa la tabla de decisión de la figura 2-7. La regla dice que SI una persona es miembro con un número de identificación válido ENTONCES el estado de su membresía es ser miembro, de otro modo no lo es. La cláusula ELSE (SI-NO) es cuestión de sentido común. Una razón por la cual esta cláusula es raramente usada en este tutorial es por que hace explícitas las condiciones alternativas que ya son implícitas. Otra razón es que puede causar una secuencia ilógica de cuestionamientos en una consulta.Por ejemplo, las condiciones de la regla anterior son probadas en orden secuencial y en este caso, asumimos que el usuario esta diagnosticando a alguien que no es miembro de la HMO. Si la regla no concluye después de un 
+ como respuesta a si es miembro, continúa la evaluación en la siguiente condición y pregunta si la misma persona tiene un identificador válido. La única manera de impedir esta situación ilógica es hacer la condición negativa una regla aparte, por ejemplo:RULE 1
+IF estado_membresia 
+ miembro AND    razones 
+ caso_nuevo OR    razones 
+ seguimiento AND    problema 
+ serioTHEN atencion 
+ nivel_1;
+RULE 2
+IF estado_membresia 
+ miembro AND    razones 
+ caso_nuevo AND    problema 
+ no_serioTHEN atencion 
+ nivel_2;
+RULE 3
+IF estado_membresia 
+ miembro AND    razones 
+ seguimiento AND    problema 
+ no_serioTHEN atencion 
+ nivel_3;
+RULE 4
+IF estado_membresia 
+ miembro AND    razones 
+ info_otros ANDTHEN atencion 
+ info_otros;
+RULE 5
+IF estado_membresia 
+ no_miembroTHEN atencion 
+ sin_membresia;
+Paso 7: Construir interfaz de usuario.Una vez escritas las reglas IF-THEN, los elementos de la interfaz de usuario de la base de conocimiento deben ser construidos, como en la figura 2-14. En este caso la interfaz se refiere a todas las partes que el usuario verá y con las que interactuará en una sesión de consulta al SISTEMA EXPERTO. Como mínimo, consiste en mensajes de inicio y fin, además de las preguntas durante la sesión de consulta.Consideraciones al factor humano intervienen en la construcción apropiada de dependencia. Es un arte delicado plantear preguntas de tal modo que se obtenga la información deseada. Algunas preguntas se reescriben muchas veces hasta que parezcan adecuadas. Después de que parecen correctas, deben ser probadas en sesiones de consulta en persona.Escribir las preguntas en papel en ocasiones puede ayudarnos a pensar más claramente el diseño general del SISTEMA EXPERTO. Es común hacer preguntas sobre los faltantes y sobrantes. Esto lleva al desarrollador a pasos anteriores en el proceso de desarrollo para reconsiderar el diseño del SISTEMA EXPERTO.Esencialmente el diseño y desarrollo de un SISTEMA EXPERTO es un proceso iterativo. El desarrollador salta entre las fases del desarrollo de acuerdo al diseño. El diseño es la parte creativa del proceso. Convertir el diseño al código de la base de conocimiento es la parte mecánica.Por ejemplo, consideremos 
+cuál es la razón por la que se busca el servicio de la HMO?. El desarrollador prueba el término propósito en lugar de razones y prueba variaciones como 
+qué razones tiene una persona para venir por el servicio del HMO? A menudo, no hay otra alternativa más que prueba y error.Codificar las preguntas en la base de conocimiento requiere usar dos nuevas palabras clave:ASK (PREGUNTA) es usada para cuestionar al usuario sobre los valores que se asignarán a las variables cuando no se encuentre valor asignado en una regla.CHOICES (OPCIONES) es usada junto con PREGUNTA para presentar un número de posibles valores que pueden ser asignados a una variable solicitada.
+ SHAPE  
+ MERGEFORMAT 
+ SHAPE  
+ MERGEFORMAT 
+Organización HMOSolicitudes de membresíaInscripción de miembrosFacilidades de AdministraciónFunciones deservicioFuncionesadministrativasÁrea 
+seleccionada para el  prototipo inicial(a) Diagrama de bloque del área de estudioServicios de HMOCaso nuevoSeguimiento decasoInformaciónOtrosSin membresíaCaso nuevo:No serio(Atención nivel 2)Caso nuevo oseguimientode caso: serio(Atención nivel 2)Seguimiento de caso:No serio(Atención nivel 3)InformaciónOtros serviciosAtención para personassin membresía(b) Enfoque conceptual del prototipo del SISTEMA EXPERTO.Figura 2-2 Diagramas de bloques.Elementos de la Interfaz de usuarioBienvenido al asistente de diagnóstico de la HMO
+El paciente es miembro de la HMO?Si	 	no
+El número de identificación es válido?Si		no	
+Qué servicio requiere?Caso nuevo	seguimiento de caso	información
+otros
+Cuál es la temperatura del paciente?Normal		anormal		desconoc
+Se presentan otros síntomas?Si		no	Atención recomendada: Nivel 1Mensaje inicialOpciones de pregunta y respuestaMensaje de término de consulta1 ayuda
+2 ir
+3  y_si?
+4 variables
+5 reglas
+6 poner
+7 editar
+8 salir
+1 ayuda
+2 como?
+3 porque?
+4 Lento
+5 Rápido
+6salir
+Figura 2-14 Ejemplo de uso de interfaz en la sesión de consulta del SISTEMA EXPERTOACTIONSDISPLAY 
+Bienvenidos al asistente de diagnóstico de la HMO
+FIND 
+atencion
+DISPLAY	
+Atención recomendada: 
+atencion
+;RULE 1	IF estado_membresía 
+ miembro and		    razones 
+ caso_nuevo or	    razones 
+ seguimiento and	    problema 
+ serio	THEN atencion 
+ nivel_1;RULE 2	IF estado_membresia 
+ miembro AND   	    razones 
+ caso_nuevo AND    	    problema 
+ no_serioTHEN atencion 
+ nivel_2;RULE 3IF estado_membresia 
+ miembro AND    razones 
+ seguimiento AND    	    problema 
+ no_serioTHEN atencion 
+ nivel_3;RULE 4IF estado_membresia 
+ miembro AND    razones 
+ info_otros ANDTHEN atencion 
+ info_otros;RULE 5IF estado_membresia 
+ no_miembroTHEN atencion 
+ sin_membresia;RULE 6IF miembro 
+ si AND    identificación_valida 
+ siTHEN estado_membresía 
+ miembro;RULE 7IF miembro 
+ si AND    identificación_valida 
+ noTHEN estado_membresía 
+ no_miembro;RULE 8IF miembro 
+ noTHEN estado_membresía 
+ no_miembro;RULE 9IF temperatura 
+ normal AND    otros_sintomas 
+ siTHEN problema 
+ serio;RULE 10IF temperatura 
+ normal AND    otros_sintomas 
+ noTHEN problema 
+ no_serio;RULE 11IF temperatura 
+ anormal OR     temperatura 
+ desconocTHEN problema 
+ serio;ASK miembro: 
+El paciente es miembro de la HMO?
+CHOICES miembro: si, no;ASK identificación_valida: 
+El número de identificación es válido?
+CHOICES identificación_valida: si, noASK razones: 
+Qué servicio requiere?
+CHOICES razones: caso_nuevo, seguimiento, info_otros;ASK temperatura:
+Cuál es la temperatura del paciente?
+CHOICES temperatura: normal, anormal, descoc;ASK otros_sintomas: 
+Se presentan otros síntomas?
+CHOICES otros_sintomas: si, no;Bloque de preguntasBloque dereglasBloque deaccionesFigura 2-15 Estructura de la base de conocimiento y archivo del primer SISTEMA EXPERTO.
+óæÜÒÄÄÄÄ¹ÄÄ¹ÄÄÄÄ
+ÄÄvvÄvlÜlÜvlÜlb
+öììâØâÎìâÃÃÃ
+öìöâìâØââìâØâöìââØâÎÎâìÎÎÎìÎâÄØÄºÄÄÄØØÄÄØÄÄÄØÄÄÄØÄÄØÄÄÄÄÄØÄ
+öööìööööìööââöØâìâÎÎâÀ
+gd_cÐ
+gdFD4
+gdFD4
+öììâìâìØìØÎÎØÎÎâÎÎÀÎÎÀÎÎÀÎÀ
+wÎmÎcc
+óéóéééééßéÛ
+ÛÐßßßÆßÆßßßßß¼²²²ß²²Æ²
+gdFD4
+gdFD4
+gdFD4
+öìöâööÔööÊööÊ¼Ê¼ÊöÊÊÊ
+wìwÊwwwwwwwwm
+öìööáöööööööÓöÈöÈö¾¾ö¾
+gdFD4
+gdFD4
+gdFD4
+üøîääääÚäÚÚäÚÚÚÚÚÚÍÃÃÃ¹ÃÃÃÚÚ
+öìââââØØØâÎÁ
+ÁÁÁÁÁÁ
+ÁÁÁÁÁ
+ytFD4
+gdFD4
+gdFD4
+ytFD4
+gdFD4
+gdFD4
+ytFD4
+gdFD4
+ytFD4
+gdFD4
+gdFD4
+gdFD4
+ytFD4
+öìâìââââöââöââöââââ
+ââââÉ
+gdFD4
+gdFD4
+ñçñÓÂñç
+ªndWSEE
+ïëëëëÝÝïëÏÏ¾ºÏÏ¾º
+uuëuëuuëuuëdë
+ïïïæâïïïïïÙâÈÈÈÈâ
+øøêØêêêêØêêêØêêêØêêêØêêêÉØÅê
+ïïïïÞÚÍÃ¹¹ÍÚ
+ïïáïïïáïïÌÌ
+gdFD4
+ÐÉêyùºÎ
+àÉêyùºÎ
+Ft FðOT
+ÿÿØÿà
+
+(7),01444
+.342ÿÛ
+			
+2!!22222222222222222222222222222222222222222222222222ÿÀ
+	
+ÿÄ
+456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ
+ØÙÚáâãäåæçèéêñòóôõö
+øùúÿÄ
+	
+ÿÄ
+56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ
+ØÙÚâãäåæçèéêòóôõö
+øùúÿÚ
+òMmñ
+â¾Ûâÿ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+VÖÎÖ
+â¾Ûâÿ
+ö)lgí
+2RØZ(
+Ígg5Â
+gidBÀvÈ Z
+ûXw;Z
+VÖÎÖ
+â¾Ûâÿ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+VÖÎÖ
+â¾Ûâÿ
+VÖÎÖ
+â¾Ûâÿ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+VÖÎÖ
+â¾Ûâÿ
+ÜImD
+½hJâm
+ÚÃ¹ÚÑ
+òMmñ
+çkEq_mñ
+ÑÊÃÚÃ¹ÚÑ
+òMmñ
+CQT¾;ÿ
+hñL2ÜøCZ
+4RÌÌc
+¹ 	ãÇ
+³¼ªÑ:
+mªÌF
+ÆIàä1
+kI,ë5
+ÝG,?bD
+)päGY
+H¼OÇåÙÝµåï
+òÏrR
+BrÌãt
+õ4Û;è
+½Nß¼J
+,ãËÜ3
+öÔÈjÁE
+ç¹ÕCah
+ÕÐW?ã
+ÓInöÚp
+Oi,o
+ÑégZYZ
+ÏFª²_Ä³ÜÛD
+5Õ¼;
+nîtHu
+kg2K0
+p¾ÀáH,
+Ãq r¾c
+Fk¾
+ß1ÙÃbUÝ
+ÍÎ fff1
+MäòÚÝ
+ÑEsæÜÏ
+ásÉÀÆN1Î
+9ðõÔ6ÚeÊ
+ÚÀðÙ5
+ÌIcòäô
+µÐW?àOù
+ZÙlpOâd7SÉolÒÅk5Ó
+4;KÆå
+1ÎàÜãué
+qØ9u8
+Ü(NÂ
+òù1Ø½
+çîÂ6ÂUF
+ÊîÚíü9,sJÙ
+ÙØJN
+ôåòlôÉtäR
+ÈZXz,
+rhwTW
+iíyªiw76w
+Fñg¼
+uPÀeA
+øbÞö
+7ìVïe7ÚvZ
+l¹RrÛK
+d	àßøüñ?ýWÿ
+ÛWUX½Îøü(Z(
+-KþÁV_ú6ê
+j_ö
+²ÿ
+ÀËtQEjq
+aÏnÐª
+ÕÊêMm
+é2ìQ½
+e¹Iü²
+Ì³ÝÁm5
+Ü0
+ëví0GS
+déâw
+_2Õ¼ï)LøÛ
+qoáÈ.ôÆ0É
+3_Ç:1Y
+ó-fÛV
+mM4XÚ)æ
+ãä;
+(
+ù(Zoý
+liKãGkE
+VGhQE
+ÌøïþE
+?øíð
+Çj¹Ì½
+îEEKÿ
+øA4Oïêÿ
+_øA4Oïêÿ
+îEEKÿ
+øA4Oïêÿ
+¹ÏøÇþD
+Ñ;W-7
+NæÔáÈ
+
+çüwÿ
+îEEKÿ
+øA4Oïêÿ
+?øíáìr
+_øA4Oïêÿ
+îEEKÿ
+øA4Oïêÿ
+Ã_ö
+µÿ
+ÖgPQE
+ÔI½Ø³
+¹NÎÒ
+ßÖ?ðuyÿ
+kVrQRÂâ8
+Ïþ;G8½
+îEEKÿ
+øA4Oïêÿ
+ËçJÒÜI3
+N éJÉ!h
+ômÕvµ
+øWJÕµ
+rbXKÛ_Oo¹
+PDn à
+uõ4Ó³
+Ïþ;WÎsû
+?øíð
+?øíáìr
+Ïþ;Gü 
+ñÚ9ÃØ
+Ïþ;G8
+xWKÒu
+ãj1RÀ	
+ÉEéè)9
+
+.2½ÍÚ(
+äVoúý²ÿ
+A5SÂÊSÂ
+ài	ÿ
+ñcö7Ð
+s7øWG
+øRËUÖm 
+MoBUQ
+çþÇâÿ
+çþÇâÿ
+çþÇâÿ
+çþÇâÿ
+øHßi
+f0ã
+Ã
+Iã8w
+õ8O¹9
+arÝNÅ
+ÞèZþ³
+Úmªê³,ò
+òUcñ
+òUcñ
+òUcñ
+òUcñ
+í pHÍ
+ÛHþÈÓF
+äiÒ²lTGf2
+)Ôg³¹Õg
+?òN¼Iÿ
+Tô:tàÿ
+:DIPÊN
+¹Eq_mñ
+Õr³?k
+çkEq_mñ
+ÑÊÃÚÃ¹ÚÑ
+òMmñ
+çkEq_mñ
+ÑÊÃÚÃ¹
+M1.lõH
+Þ0ðÊë7ºjX
+¹tn9
+PèÀä2
+ÚÂÓQÐã
+ûQÊÃÚÃ¹ÞÑ
+òMmñ
+çkEq_mñ
+ÑÊÃÚÃ¹ÚÑ
+òMmñ
+YAfqÖ
+VÑl5!
+oPØÏÚ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+VÖÎÖ
+â¾Ûâÿ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+VÖÎÖ
+â¾Ûâÿ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+VÖÎÖ
+E	EqW
+ºþ
+fÿ
+R)Ù³µ
+ºþ
+fÿ
+VÖÎÖ
+â¾Ûâÿ
+ºþ
+fÿ
+håaíaÜíh
+ºþ
+fÿ
+,ækXÒK
+óGÀk
+ÞÇåäòxã
+õèmñ
+jãïmhÈÜ
+çkEq_mñ
+ÑÊÃÚÃ¹ÚÑ
+òMmñ
+çkEq_mñ
+ÑÊÃÚÃ¹ÚÑX
+ån.mÜÀ
+ºZæ¼wÿ
+WØÌÙ
+âÍnïBµ
+Êöga,Ñ
+QÏrH
+?kÙme
+Ki7çï
+Þ²5IïdÖìtëK
+ßÃºl:j
+Ð,îÃDÖë
+wk
+ÈñïPxÐår20ÄpAô óX
+ÈYö4C
+ÄßÌþÍÓ
+7úÎ9W
+åHäGh
+	FÀlC
+BßºPKq
+ugXËÌ 
+HÀ,¹
+ãÖ¹ínçM
+ÊÎZåe
+?Ömä;(
+âPV
+!ØQX
+tQEhr
+ÜøoÂzeÝ
+Ù¼7qÝ4
+T1ùcë
+qexÕY
+LlÔì4ÿ
+_ÙÙZÌ
+¼ÓáÔÞyQ
+7Ìß7L2ëWÕmÃé
+åg-r²Çe
+NòbÀë6ò
+EtúuÒßiv
+i2N³À
+îKV-QE
+9îuPÙ
+ÛVm
+XÚCc;
+LHNr
+î1ÎFN
+ønÏPx
+Ìc;³Æìs
+.?fvÔWi
+AÁViúö
+mJOôlÅhc
+CöÓnfV
+tÔÉjÁE
+Ô?ô²jé
+äYOû	iÿ
+úYtµ
+.ïVÐMµ
+VæÚtYÜ
+ô
+Ñ?ðm7ÿ
+V¼ÈäöSì
+ô
+Ñ?ðm7ÿ
+bÝdÃáo
+Ïðh:
+SFÁÒD
+æCöSì5ô
+ÓlÚâæ3ò
+-ãhaW
+àÚoþF
+d?e1.t
+qåO,
+Ò
+äc½94ë
+ò5bñ
+ØüÍ:ÍþÅ
+lãåÆÕé
+ÌÝm	ó
+ fÜàz
+æBöSì
+ÙµÅÌf
+å0)yP
+SKgk7
+3ûOûOû:Óíÿ
+výügîñ
+¾lúóMû
+àÚoþF
+Üèúeå
+LªF
+Äçålõ_
+àÚoþF
+ò5bñ
+ÈÔs öSì
+ô
+Ñ?ðm7ÿ
+ÈÍáoû	Iÿ
+XÀ
+aAÖ
+äHÐ?ì
+Émgö
+ÑrJÆÍ
+äj¾daì
+àÚoþF
+àÚoþF
+àÚoþF
+lt-K
+GØ¼_ÿ
+2ÎÔÚÚéÖvöæA1
+ÐÜ0yã
+tzU.
+tR4lF-Ï
+iÖsÚC
+ªíTû
+àÚoþF
+æBöSì
+ô
+Ñ?ðm7ÿ
+ò5bñ
+ÈÔs öSì
+ô
+Ñ?ðm7ÿ
+úiÓôH¾
+Ocz1qNâÑE
+ÝXZiw
+D.:ÆNsÞ
+RV9gNNM
+ô
+Ñ?ðm7ÿ
+àÚoþF
+íUþÅâÿ
+àÚoþF
+bÝR¹ÑôËË(l
+ë9í!Ç
+æCöSì
+ZDÁÈÚÄd
+Asem47xä
+ÈÕFÎãÄ
+ò5bñ
+ÈÔs öSì
+ô
+Ñ?ðm7ÿ
+)ö-ÑU
+àÚoþF
+Rpàt
+E5mÁÿ
+µZêöóÙ
+q³ÈvB
+øÂëÆÞmRm
+NþÐkE
+Ë;3ó0;
+ÈûþÃ
+)¾½ÒâÐ¼
+æúk³w
+mØ2räg
+VV_m¹
+uâO_Ø
+J9FÎ	
+?âq.N
+æÕeVÌR
+àæoþE
+ïûj?úW-t
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Ïý³Åÿ
+Õ5ÍbkK
+RãzÃo3L
+0ÛwìBØÏlã
+øH¼Oÿ
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+ðÅæ³k
+ÐsÓ 5
+àÞ_þF
+ôj9X
+dåÈÎFB
+åæyU
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+àÞ_þF
+øH¼Oÿ
+Gþåÿ
+;
+Jä?á
+áÝnëYMAo,â
+tê458½
+ÏøïþIï
+cªBÓi
+WuU,Ét
+UËQº;z
+QÕåH4ùî.-d
+ÜßiúTZÓ
+eãhÊÑpä:J
+ÕM¼p)Y
+qpÐºÆ
+òÜy?eiNñ
+PÑÄß1
+ÅÁÀÙ7v
+ÛU6ñÀ
+¼î.
+åHäGh
+	FÀlC
+Ùü¹e¹
+Ísusu
+¹É5MF?
+ ï²þÚÚì
+ÈÀè ¹Ôu
+:êæÊKÿ
+ÖÒÎUýù
+1CaQüµ
+cåÚHç
+Ûe YÝ
+EgkwMg
+½¼Ö5-(Kyx
+æµ²Ûì
+yÆLÄ¹ÎG2
+v¾ Öl¼;m
+çÔöÉ
+
+kOw1º²
+ÝZÖýî7
+ñùâoû
+
+ÛRÒx7þ?
+ìoCâ:º(
+ôSWAY
+8Éô Ê
+ò5bñ
+ô
+Ñ?ðm7ÿ
+àÚoþF
+àÚoþF
+èpÄgÐ
+Äçålõ_
+àÚoþF
+ë9í!Ç
+ÎÖo?Î
+1ÛÐ19ù
+Äçålõ_
+àÚoþF
+Ámem6ì
+ÌIëÉõ
+àÚoþF
+àÚoþF
+2òÔZÝiÖw
+ÎÖo?Î
+1ÛÐ19ù
+àÚoþF
+GØ¼_ÿ
+ì?aû4?dòü
+ìbÉÏû,I
+ÙÚÉÌom
+Ámem6ì
+ëí:ÇTaÔ,í
+ÇæiÖoö,
+cg.6
+GØ¼_ÿ
+M:Æ-B
+B;;d½
+-8ùW
+àÚoþF
+gjmmtë;
+éOM:Æ-B
+B;;d½
+GØ¼_ÿ
+zTõSì
+)ö-ÑU
+àÚoþF
+GØ¼_ÿ
+ô
+Ñ?ðm7ÿ
+GØ¼_ÿ
+àÚoþF
+5Yµ8íc
+,vÓ4ªª!
+ndBNc
+(J.ìèè
+ËBtÒP
+Ft Fð
+ËBtÒP
+:ÿÿØÿà
+
+(7),01444
+.342ÿÛ
+			
+2!!22222222222222222222222222222222222222222222222222ÿÀ
+	
+ÿÄ
+456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ
+ØÙÚáâãäåæçèéêñòóôõö
+øùúÿÄ
+	
+ÿÄ
+56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+¹ºÂÃÄÅÆÇÈÉÊÒÓÔÕÖ
+ØÙÚâãäåæçèéêòóôõö
+øùúÿÚ
+dòäMcû
+ißÙ_l
+JÕ q
+â	þub3
+9N9Æq
+öÞVß½æ¼-
+9ãN1
+wvÇ 
+v3åp
+2lMà_7ÃÖZOö
+ÍáùôO7ÈûÞjB¾n7q
+jwóéz¼
+8SÎY07gßø³Y
+ôãîõç
+ÝxºûL
+6éqt²jN
+Èò,a
+Ý1lªã
+¹ÄoákË
+WcHçs
+v0Wåàî¹
+ê_Û2j
+oÄk 
+ý
+ÚWþ
+ý
+ÚWþ
+kíRádh,
+º½¼û
+i_ø:oþG
+i_ø:oþG
+ÝÙÉðyz
+ ÕÛCÒ
+?Ú-àX
+uVs,É
+24jWçS
+kWéªibM?
+i_ø:oþG
+i_ø:oþG
+ÏsÐÒø
+Òß22ùR2
+Å3FÒÄ
+cmèYAØØ
+zÇýzZ
+ipÄèîBÃ!ÿ
+?ôÌö?ÃÓîãn8lEýÉ
+ÃiÞ2ñ
+?è_Ñÿ
+åaí!Üì(
+àâ_þF
+àâ_þF
+øHüQÿ
+øHüQÿ
+VÒÎÂ
+ñGýú?þ
+ñGýú?þ
+åaí!Üì(
+0(8.
+QÅvt5b
+3õÝ3ûoÃÚ
+Wà2ðÑ
+fÐÛíWPè
+LÉ.ÜduÙ
+öÎyéZ
+?ªxcûJþúð
+¼Vöví
+áí3Ió¼ï
+ÚEmæíÛ
+ÆMhQE
+jânxñæ
+Fü7L?
+-:òBÚ
+séÙXÿ
+ºyÆzÚä
+JÔei 
+YÝÈrIí
+äGÐ?ì
+ëtyïp
+?ãÎÇþÂº
+UÔL3c fî
+ !n-ÉÉCØ
+Tk:N)K
+ðÝÛÉo
+h Dº.
+5µÂi:
+ùl:ìoúh
+ÒuI7
+0.TuÏa Gqó
+ÓÃâ9ýÙnyõèr
+jûMåæû
+ÏÖbû
+Còç.ÞJíN0
+õëOû.
+³ ób
+
+ªrC0ÉP2
+MUÇGoôX
+!æ9c¹
+GÞÊò6É
+ÃIÇØãKb
+!¾GláW-
+Õ½õµ
+½6pÝÝ
+ßmþÓ¼KXãHn
+
+)!Bß(t;³
+ëoÞiñZÉgª
+áÙµÙÐ
+Ò)áµD¹
+I9ÀQÑFp
+rLôÉfW
+?ãÎÇþÂº
+ýp ÿ
+;û
+éÿ
+úYwõ
+rqªÚîzÐ
+cgGÕáÕíYÕ7
+6ÉíÜüÑ7
+âºMCOe
+LäÆþÝpz
+ÕìüøCFêvM
+ÝXzûô 
+Ï³éSê
+mûòåFäÏ
+:mÝÓé
+.V5h!
+ðy²Ê_sK½c.ÁAÀR
+áÝzêÓÄú
+Zißñÿ
+ÞøÊÚÊëS
+ÀWÉTÃiùy
+øsSþÐ
+ÜisÛÁeªÛXÅtR7F
+RÄXÞj
+öNé ?cÖïu	0Ç
+æûVÐ8ûÃÏL
+jQYµ¹º
+Ú?µôëí
+Xxy4?
+¾Kcpóa
+Í6W³g¹
+ÂLNµç
+äÍåÙ
+þ-6ÑÒöÎt
+rÇwËOþ
+ícËþÈÙcý
+îóætù
+hnÜvù
+ÚiÇO½³
+tÝßÕ
+øNüÿ
+,åÑôýEc
+òZøoìþ(
+Q2fÄn
+ÝÚèßh
+y.µ5,
+xÓÏÑíïoÓ3I
+fxqºk
+tTFgþ
+P 6Ð¹Ér	ÛbÏÅw
+m ÎÒË
+6ÕËnaµ
+Ýk7óÍciq
+PÚO!Ú
+c9ùN
+4m1bÍ
+w.æë(
+ïþGýWþÁö
+úÅvµÅ
+NÐÛHðé
+îsRxÎÝN
+²².Xp
+KÃmö
+üßôX¼µ
+ò¹
+pÇ
+äddÔ6ÚÔ?Ù
+¹íÁäñ
+MÈÜàa
+Í;ÅVúêÛý
+wµIçD
+êìÍÒB
+ûFÐ8ûß¾
+öàòxÉ
+a½Ómo Òµ
+ÈPÎ1µQ
+²3WEÐµ
+Cón9Û
+ÂÒËáO
+éÓÛØ_M
+?a¼ûoÚ
+1ÇÞùjDÔÚëUÓ
+	lãÐü
+åörÙPÛ¼¾ÁqÆú
+BÕ¾¾
+IEfÃªã
+ÞãPRÏu
+vTÐJÝ_
+I5ÂêV
+ý
+ÚWþ
+Äñçcÿ
+ý
+ÚWþ
+ý
+ÚWþ
+ý
+ÚWþ
+ý
+ÚWþ
+ÈéÔWð
+5sWÚ
+ÀþÐ½c
+õWÁ2þGýá
+Ý,QÏÃ4k
+jÉðïü
+Çqkxº
+mÑJ2qwEJ
+JÌÞÒõ;
+ZÉnmË
+Å8¹Óï
+íó¹QÛÐ8þ
+OÔ-µK
+þúßLÓ
+òímby
+Ù_DW.óê
+BÜ²ÕÖ
+Ç9ýßÝ
+O9Ìpí(ì
+êzuµý
+ÎÍåÉò
+ÞäØÛì¾T
+pN_?wî
+Ìm½(;
+Øtkßð
+ôZÖÝbx;þD
+;û
+éÿ
+úYwõÀx
+éd5ßÖsÜë
+jÉðßü
+N
+jÌè
+û(ÚXe ÝÚ
+ºÒîÞþÒ
+tyui:nÌ
+øWWÒíÚ5
+öÊkxÚBB
+MÔ¼3o
+Òk3ÛèVÖè 
+_ÓfÕtè
+àhÕÒöÒà
+¼Ô5MBö	 dZq
+¹WpÜFIÚp
+(mähÉ
+ dz
+Ô
+4VÞ8Ö
+CÛÙÈ0Ò
+ÃrûÓÜÖ¾
+þìC À
+8-ÂÖSißeÑ¼g
+Ñm	â;g6ùÈÀëÔ
+rêÞo7Ë
+(-Lmå¾ÆùþÍ
+Lñ:YÇf
+iþDlK
+xWB¼
+7PÅÒ
+6ãÆ2ÚL
+ùñæmã
+ãPµðæ
+uÉ.ÊßòÔ0?1
+ÝsþýÙÿ
+öøHøþÝû
+sób½B
+ÝsþýÙÿ
+ùºª(
+Hö9OøAüÉ
+ÍÔPÜEqäÈ
+èòXÊÛ
+pSVgMoqÝ¼w
+ÊÅîaQ
+² ôîÊ:ýáÎCv1Kñ
+MÓvcè
+W7ökg5á
+ þÊðü7Ö
+Ã9HÅÀ7dHÊ
+6Èyc
+ÑíuMJh!
+A-ÕÛÍ
+ÍuûËÖÕüè EÖä
+i³ÉÜÈ¾Zó
+
+K,hó
+ÔíV8
+Rî;_
+åµXt(õMJ
+Oúí?þ
+ê:rº3
+FEzôêF
+( 
+æÂÍ
+ëBÑïµ
+Æâú¾MÌÖèòG
+ºßÁiq
+ÅºÁvâ
+Oû,K
+Br9ªÿ
+ØZ?öÇö
+ïãwÝã
+¼ÙRy3
+½¼qBª
+íFFóJ
+oÔö)ü
+BÁ)?ñè
+)UtåtgV
+NÊÇýÓÎ7u
+ëÂjqæ
+ÓÇÆþÊË_k
+ÛÜF²Å kA¹
+ÊëÊáÿ
+Ïý
+Zçýü³ÿ
+?á3¹ÿ
+w?ô)k
+Îçþ-sþþYÿ
+ÛÈ?á3¹ÿ
+w?ô)k
+DÞAÿ
+Ïý
+Zçýü³ÿ
+?á3¹ÿ
+Ïý
+Zçýü³ÿ
+µÏûùgÿ
+(äAíäð
+ßË?þH
+µÏûùgÿ
+ÚHûÊz
+Ô?ô²jék3
+?ñ3ÜZÂ
+¹HÚÕLQ
+O½Knp
+-!Un6
+.XeÙ²
+ðæ³-ÛÛ
+ÞXYiÞK;ýMo.là
+ÂnAUÛ
+-ÇNG
+ßñÐðÖ
+(mähÉ
+ dz
+
+41ÜBðÍ
+Io!Ûgw!ÉÏh
+?Þþë½ÐüÜ²Tw
+Æ²Dã
+ßòÙÝ¹æ_úfçûà
+Ä9êtÕëÂjk
+äGÐ?ì
+ëtyïs;QÖì
+çí-4êïvö
+9Î9ÏáX
+¹2DUæ,Û
+JKGJºÓÞ
+âøwBLD
+îöy¾_O
+óÈí4ëû
+¼_ÙìX
+ÖéR,ö
+Ê6)ÆE
+VÕ4qª
+?Ið-Ý
+úTõæÚ
+äy?Û
+wØæßö
+Ùó1ütisX
+ÛÁnÆò1öy
+(ã;ÔòÞYb
+påcRÄ
+ÔrÜùwP
+ÖyÞOÏö
+Ùó1üu7
+íßcþÝçû
+oõÛöìþ
+ïk;üÍnëe
+¹pNÕÉùF;údµ
+û	júY5tµÍx
+WKX3Ð
+WÖît¹ã
+ÌCµNzò)Ïá
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+èJñýókÿ
+Ag4v3
+ØX!!Î
+.ÓLÔô
+áGàG²
+BÆâÊî!-µÄm
+ì?Ü?ú
+lö!ð 
+7ÆÝFpAê
+hzÄÑÜ
+iP2Aì
+e8eaÈe
+ÐÖÔk:OÈÆµ
+8Òµ6m
+L3ct
+ÑåÊ..Ìó
+äGÐ?ì
+GbbjÑ
+éÚd³Ü
+SNkÛëm2ÇO
+íöóIªÜ4
+jñ)22
+Jßlx,
+bâÍRi
+MrWºº
+ÚßmÉHöµ
+âh_h;
+ÖtÃ
+akxãÌ
+Bò;köµ
+ÜìgyÖ
+ FDtfÅÍy
+pAW?
+K.LLÑ²å
+e_ß,Û
+C½ÃÅ¾Ú
+ÅêÀîx
+ÖÐJAw
+ÝBâÊ;
+ÚÀêrØ4
+Ñ, ¹	
+LfË?Ù
+¼0Áç9
+ÂúUÔ²
+Éí5-RçÃö j
+á²gI²êó
+ºÈãvAf
+ÐkyôÝGU¼
+ÓôëXf¾
+í2Òn
+7Õg²?¹¾XãýìJÎB
+xVá-ÚXÄî
+ÚKÅÚ
+2å-ïâ
+åÀmÙß
+³íþuä²G
+xVá-ÚXÄî
+ZqåHW
+Ùö?Ä
+ÉÇZËñ¾
+XßÙêvqÞX
+ppAX
+4xn¼Mu
+ìxNúãSðn
+jXàp2Ié
+sÃ3Ì
+Óíf-
+¾ÖWTÔ
+SU¹Gß,
+8rßêW
+JN_iÚ
+4ðÛ yå
+öîý
+ÖÍcxSþE
+kf¼9üLö!ð 
+.BÊA
+)ìEjhzÔ
+27QÚº
+AÝcFw
+Õ³ÏËÃuá
+LTaËw¹
+ºÄðwü
+ÌIëÉõ
+râúpÓ
+äE9V;
+XêRXÏ
+µF,íE
+ÇM¼Sâ
+ÕÖÌêÒê
+êþÇkäù?f
+7Ïb-4
+À,ØçÖªÝhÚ
+âIíÉÕO
+MÊõÖÒ
+È
+òê¾Òõ
+¾ºÓlç
+ämb20NF;ÕÚ(
+û	júY5tµÍx
+WKX3Ð
+³¹Ðít
+È9BFTåAÈô
+Cölc_
+ÑéEÖ
+ßj0j7
+QÍagqö
+ÚYÉgm
+ºxEAhð
+cUhæY
+ORÒtÝfÝmõM
+¼?qªê6w
+çöDQÅe5ÜI
+ÓIÓcDDÓí
+ò1R5
+3ï4-P³
+ÂÎßìþE
+åFvå
+AV( ù
+FmìêHùX
+káí6ÚÖ
+;Íßj
+ÏÔô-
+gØXmG
+rmÐÈû
+²å
+ù_ÚÚU
+ívé.Ìã8Ü
+AéW( 
+z
+:yfâ,ï
+6¾Üínv
+øKþE-,
+6êMmV
+QEIAE
+ò,qF73
+êÜð:Ú(
+jÓu;
+îçµjQ
+6ï3Îò
+y;¼½Û¾líÎï
+çnÎsþ³æÇNÝ8
+ÕLÎcGlîu
+Þ3my4å
+8ÜN2qÔç
+HXÁ¾
+²µO.ÞÞ5
+Éäð;ÔôP 
+Ô?ô²jék
+þÆßSÓ
+xfMÄnF
+,µ½6æDßs
+7Hë
+à
+äúJÔ
+Èäcåf
+mCPÓu
+à12FåÈ
+qª;V
+ÆÛinñt
+êLcå?
+Y3xnKK
+V¾º¼2K
+iZUÕÛÆSJ1
+bò dU
+öÖMCìeÞ
+Ái5ôß
+6pÛDÍ
+öùucà
+Æ¾sÃu
+ÖâúÞÏP
+Ì
+ßïc½
+VúþçÍ¹òäÕ
+Y
+ùaå
+XþdQ¹
+ÌÓÇ9ûEÔI
+O)b¹-
+wuÈCýÓéØôë
+z
+àîíâ¹ñw
+êÔöqæ4
+ÒíÏ3q
+QEQ!E
+øGþE-
+ùVÕbøG
+ªðçñ3Ù
+m-ÞyßdkÔà
+WPÙÀf
+A,Ìx
+ rI
+95wGÑ
+5æ3HÑf¼
+oµ;K
+qgmg7Â
+éúuÂXj Õ
+ÏòÙÙA5Ó
+a¹BG¹
+cåÎ7( 
+skïqö
+MSÖ5;
+m:Á:Ì
+käbiî¼ø
+oºçÉVÂ
+iÆpp7
+Yü5ÕmìgÝç
+³²økªÛZ
+GykyÃ
+³qeoåË
+msago
+ÖmÖßTøu
+ÛËlÑù
+æ8LDê
+æÙ
+Aà_
+ÛËlÑù
+xâ,ëæº²
+èJñýókÿ
+ÜZÇ;È
+f ãQ
+èJñýókÿ
+3;vyû
+½Û¾LnÎÿ
+ïqRCâ2ãT:tsÈgÞÑ
+óæÈá
+zXÝÀY
+ÝJ.ìg
+wÜÒµ(u
+-ôp4R
+c!dcÎ
+iºÔpG
+ÙCw¼ÂxÒeÜªà
+Ã¾µË8ãmiT
+Èþ!Èî
+ËsÊJ
+ryôk:OÈî
+gaEsú³)
+Z2RWG
+ZÈÃ àÎ
+Ïý
+Zçýü³ÿ
+ôZÖÝiÈ
+Ïý
+Zçýü³ÿ
+ÛÈ?á3¹ÿ
+w?ô)k
+DÞAÿ
+Ïý
+Zçýü³ÿ
+?á3¹ÿ
+Ïý
+Zçýü³ÿ
+ª.BLÍ
+?ãÎÇþÂº
+ªðçñ3Ù
+Qe!UNc
+OUU7 
+îGVü
+ú-kn³4ï
+k
+æù_ö
+ÈèÊåê
+QÍÏRÄ
+ËTT?ð
+áñGý
+?þ	åÿ
+?áñGý
+?þ	åÿ
+É4s ö3
+sÅô0hÿ
+sÅô0hÿ
+hçAìfMECÿ
+ºZÉðÞ
+DcRÒÊò
+ÎîÒövþä0ÜG,
+XÜGã-Ný
+1¾áó:IrXc
+lTpA
+¼VöñG
+îùÛBÓìe
+ÒX7A,
+88ùÐä
+Cí6þ_ö
+ä²ºùÔùs²áx
+:úhmô
+DZyWJ
+6Go2Ýn
+íìyÿ
+ãïåÆ6ïÛ
+åó6nÙ
+P7aIaÈ
+Í3VÖonõ
+3cÄz
+jÊòxÿ
+ËêV:ÌzÖµ
+H6où7
+iWÖÐO.
+ãI)bÒ
+Ü)ÈUf
+9r¼ôÛ
+qÈ?SÇÍ
+b4Hty
+Ïìü2ðj
+ëÉÁßZ
+,Im4Û
+Köï2Òæ
+çlåúÊ(
+øFM7ì²E
+sKåyjÑ
+íõ)cÑ.ì
+t-BÆ(
+øLßüD
+Hï!òäÜ
+0tt8hØte
+RÆpñ8èÊ
+
+ÔUEævTV
+ã5øHõ(Ws
+n½hÉI
+cM;3Î¼ÿ
+?ãÎÇþÂº
+ø?þDÍ
+kn¼9üLöcð 
+êR.ÖuÎÈW
+ÈÁè:dõb2x
+V1QVG
+YI!!Vd
+B7(øä
+ïYz6³ý
+;ÍóüÏ,nó6y
+rvSêRÜYxYå
+K6émb
+ÑQä
+72
+Ûqõªvº
+øâÆÞãOÓ
+BâPÑ
+øÑRgÒ
+!NwFF;
+êÃÖÆÑ
+ùõ_û
+ ðA ðkkCÖ
+jööwV
+TÎlM8Ê
+ÏFOàïù
+ºÄðwü
+ê2éZoÚ
+éÒêº:ÚD
+XäñÇ8ª:
+aÖaÓã¹
+ÜÞI;e
+mKÇÄÚ_
+ÑUIxþeýâ
+ËìHÆWËl
+ªÇwo
+6ÓÛ¼0
+k 24L
+ºuúéor
+z	âm,Ás4
+ê3ÎÍá
+jøÏ g
+K¹µµ-PÎÌÒ(Â 3H 
+HMëîei
+8µwâ6Æéíç
+ÒßçQ¾Qö
+ÉÀçØÕ
+YÇcysæÛ:X
+wùPêV
+üj Øê(
+HõÎü?øáeâ
+khÚX
+jø;þD
+1øPQE
+;KH¾Ñ
+áAÜý
+ââf¹K
+ác_ï¹
+íÑhú4ZL.w
+ç
+8ä
+zpøwSÞ
+ØÞ9õ
+ñìmäÔa
+hóuRC
+9BÃ91
+YÝGsoo²hþÑ
+nï-fÔ
+îXpPK
+ÆïõdU
+LÚùìæö?1
+C)ulå
+ÅäÏ6ùa
+yDâHÇ
+b²õÝ7MÔl
+
+.wóÑ
+eivfró
+ÁorÇ4
+ÓìZuÅß
+màþó,
+syöyî
+Esöúýå
+ñÇ³j
+ÔcvHÀÍ
+Fò;ky
+UvRÄã
+Gó7ÎÇjî
+yR_;aq
+êæ3¾ÞXÔJ
+s(_4)É
+ÚÞiËK
+Eeé¾!Ó5k
+Ögðßqþ
+ê_ö
+²ÿ
+QUA¹ÔïOÓX
+ÓtFVÜÃ³HGAÐu
+T æùbLæ 
+Äg¹¾¼:v
+9Üò¹êÌ
+iVkkjc
+XîgcÕ
+äGÐ?ì
+ªiðjúMî
+mVG?äOÑ?ëÂ
+1øPQE
+d½uÜY
+Ésyyý
+½Iì½O
+Ü336ùf
+Æé:D
+kâ7HÒM
+ÁwA!EmÅXªîÁbÝ
+l2ë6Ú
+½¼Öè 
+ØønÏO
+c8òu
+ûJÉÐñÈ
+QH ,h
+PËÉÛ
+âmBÚ
+â;bÙÕ5X
+ùKb5V
+âcÄöú
+WrÁºyg
+låÈà
+æÄÅf
+¹ÓíaHçxÙÃÇ-É
+TöËáý¾
+º
+åùi
+ËßxËÂz
+ÃÍ2ò;Ë
+QçdÐxfâ7
+dùa0
+sòüèÃ
+tÏNjÇü,
+ªpIÀ6-
+²üëòÃ
+sçGÀänägÚi
+eI0W!
+ËÓnô½
+-Þ9íæ¾ûD
+	xúÇÇ
+û:Þ)b
+ýàÆpO
+:ÅÛØéîb
+ØLðdý
+YÙÛéö
+ôZÖÝcèú
+wìP¹ÇÙÎ3
+Æô
+Ðÿ
+)ö-ÑU
+àÚoþF
+)ö-ÑU
+àÚoþF
+?ãÎÇþÂº
+îåRTsÿ
+?äOÑ?ëÂ
+?ôZÖ½xRø
+ìÇáAUw
+ÍïOc
+ãtÝ6ÛJ³
+kU!rY
+FpÄ0Þ
+ïôÏ³ùºUî
+ýGÝòºwÏQ
+;ý3ìþn
+ÝêZí
+KûfMSHÔm-g
+Þ;yÖîÍ
+²FTæWÎIÏË
+ã¾zt 
+SÁoÄíwxÖê
+P.Øä,s
+ç cåÆrqÍÿ
+2RJÄò
+!Äès
+çvr6ãN
+tÛV8tû
+ç8RCn8
+5¼R¼2
+BGÝ;I
+Þ¼
+9XïSÃ
+ ³0U
+EjxÎÃûOÃéfm
+Ð_ØZdÜMe
+ÚÞánDAÊ
+ÚXZÃkm
+HQåm 
+H2AÏP1ÔeZ
+NðÛHðéÑ
+¾ÚÚ;hí
+ ÀP;RÃVÐG
+YXØkZµþ
+JÈÌI
+ÖµÈôkmVVÓeXmcµû
+s3	yi0ÞY_
+ÍÄ²ÉÞÉ
+õÜùÇñ
+Y-üYªÛê³Û
+v2ü c
+önbX
+DQÆ:g
+QÝË3à
+w:ÝÓÚXÈÐÛFÛnoWøOxãõ
+.X²²
+1EüÉ
+RÎæÂËV
+á.SìÏ6à
+i.-î4
+:Miu1
+åWï0ç
+ÆVÚÈÓeM7Rµ
+ªçqP
+8Üàäã
+OµhAãO
+Ý
+ÇüLÎÄà
+ú-5ì¼?
+bë³x9
+gþÈÓ
+cð2FÓ
+23_AðÝæ
+ÙBÆÎûRmVÑï,ÖÒ 7Æ¾Y
+acwÇ
+ÌK¹ÚÜ
+!n7eG
+ÙïtÝJÑ-ì
+ ²(rT
+HSffÃÈ
+W2 ÚådËr
+lðÊågiÄ
+ÛïgÌåÉó
+mä9äc
+:úöîãÎÿ
+ÖVmfç
+³n,Ø3	ZL
+gÝxvfðý
+¾ðÅÜ
+6òÜeC2
+tÉaáÍRÇí
+éWÚeÓÄÓB
+ìgpÆpq
+dw6ó
+qÚZGå
+úÆßR³
+Òî?6ÞL	
+nç;F
+äg(Àqþµ
+MGÂpj
+ÄÆúÞÓQÿ
+ÑªË
+éÁÁëÈ
+ðÜÉ
+àîmÀü
+2Õ.ur 
+ÖîtÙ5
+î	æàÈK
+ù?ÚÚ
+ÞgÚ¾Ó
+öoØþÎþwü
+æmûß¼Ç
+ÓåÏñWa
+?Ú7ßÙÿ
+kûoöoî¼
+Ìþxj
+dÚmÇÎ
+NN9ÐÓ
+5Èç.
+2zòXóUí5sXÕll
+Î9_X3I
+ÚpYÊR
+adÉýû:
+?ìûW7
+EqþºµÑg
+úÒÒþífÓ
+òíádDÃlB
+ëÞ,ðÞ 
+²³KÔ
+ÊHÁÈ
+ä Üª
+Ëø¾ÂÏSÔ
+x8 Â
+üSmmá
+ãkUÓ
+æmv;;.ãË
+a__ÚÜêÐZ
+ó½fóÄ
+TÄ,áU
+ÕoôËÍJäé
+í3ÛYÃl-
+gÛ5Üñ
+W7áy5Óq
+kyu3kç³
+ÏÓü5 ë
+À,	ÆI8
+ÄåÉ
+s
+ïoôM2êú
+(êÓiKb
+í.JÛ)ýØ
+ÈlýÞ1
+ÝË pXÆ
+ÚH²ÜZEu
+ÅÙÉâMcYûæ
+ñhö770ÙC²ÜÈÓ
+ÑµmgÅ?bxõ
+ÈØfù³
+öÄpD,
+ÂG¼m.O
+²UT2hx?RÔ
+uÒl 
+ø2ÊßAµ
+ºÜ-ÒFn
+sç;Û75
+wFÊx8
+  V
+OMÓ Ò
+Úy.Ý
+uw-Ãg
+åvúúâ
+µÍÜ³I
+hzÛÜ6
+j
+ÖÑºj
+ùIb0Y³ÐQ
+3ûBÐY
+ÈÁùºð1OUð
+ÐíÒñRÒF
+ËfhØÈÌ_z
+7( ý3E²Ò
+HÀg¾FfÚ2Ä.p1
+ü¹ÇÊ¼
+sîÜÛÎs¹
+wvæ4ÙæZ_OnòÅ
+XØÜ4ö
+ ÂÇ(
+¼ÙÂ:;
+ÚAwvÉin
+KéíÛÊA
+FhÝKç
+ÆæÇÞ9Ü
+)ÚéV67
+côý
+ÖÝ-V4
+VHPac
+ÌßÞlîQ
+Ó.ÅÏ
+dd¼riþÓ4
+vw6u( 
+ytFD4
+ytFD4
+ytFD4
+ytFD4
+ytFD4
+mH
+nH
+sH
+tH
+
+k ôÿÁ
+Content_Types
+;ãr½
+ôº¾¼(7
+æpgL²
+ÍYÂTù
+ìÛÖYl¼Ý
+_rels
+.rels
+ÏjÃ0
+ÃâC?Ëháv
+Ûµ_¼PÑ
+ÒJEÛ4b
+à6LÓõ
+Éÿ³Ã0Ì
+eªÔÐµ
+theme
+theme
+themeManager.xmlÌM
+Ã 
+(Eb²Ë
+ÚHÅ,láÇ
+ßIÈsQ
+µÝ Öµ
+Õ!ï,Ý
+theme
+theme
+theme1.xmlìYKo
+GJKíÒâ.
+z)P -zh
+Ëýføqf83Ë½s
+, IØðõ
+ÜðgXøw
+Ä-6Á	
+M¹Ø:ëë
+ªúYxJõW
+há5(ÅW
+ðÕæf³më
+K;íJÝÒ
+ªÖ6ZóÕæ
+NøfµÒ
+ÿêWÑWÚ
+biHññÄ
+öúìÙïgÏ
+ûËWoÿøó
+êaÅ)Î
+í;Lx
+,ôÁQäÀ5
+mÇÇR
+xozl
+Äòrg:
+l³ÿØk2êZu
+4q!ÁÓ!
+m6nE(
+l¹ûâlð
+õdÊ¾¼
+!ìJ5;
+ÎèhNC
+dÇªºO
+VÈöpÈVðÙ
+JbÄWi
+UÀÔ½pÇë
+íÃô;nÅV²ºb
+ud9cÝô47
+ïiVíç
+qÓÉøÐaÜt2ÙáÊ
+taPÉé3O
+p!GZÆãL
+Lu(¼	
+å²:ØL
+û ,6,n
+j¹WàÛ
+Áy4ç
+òSêê¹wµ3?
+PxzSq
+µº4Ô.ái
+.µè)Sèù 
+õÛïcq
+hnåuH
+-¹MH
+9pºíd
+l
+îîEÁ
+UëeeÀ
+fZYEUMw
+fVø4u
+UÎÎFíÚ1_à
+?È-F-
+cHmèr
+T
+íJølÍ
+theme
+theme
+_rels
+themeManager.xml.rels
+ä56?
+c2Þ1hª
+þQAsÙ
+Content_Types
+.xmlPK
+_rels
+.relsPK
+theme
+theme
+themeManager.xmlPK
+theme
+theme
+theme1.xmlPK
+theme
+theme
+_rels
+themeManager.xml.relsPK
+?xml version
+ encoding
+UTF-8
+ standalone
+a:clrMap xmlns:a
+http:
+schemas.openxmlformats.org
+drawingml
+ accent1
+accent1
+ accent2
+accent2
+ accent3
+accent3
+ accent4
+accent4
+ accent5
+accent5
+ accent6
+accent6
+ hlink
+hlink
+ folHlink
+folHlink
+ÿÿÿÿ	
+ÿÿÿÿ
+
+ÿÿÿÿð
+ÿÿÿÿñ
+ÿÿÿÿò
+ÿÿÿÿó
+ÿÿÿÿù
+ÿÿÿÿû
+ÿÿÿÿý
+ÿÿÿÿÿ
+ÿÿÿÿÖ
+ÿÿÿÿÅ
+ÿÿÿÿÓ
+ÿÿÿÿÎ
+ÿÿÿÿÊ
+ÿÿÿÿÈ
+ÿÿÿÿÕ
+ÿÿÿÿÙ
+ÿÿÿÿÛ
+ÿÿÿÿæ
+ÿÿÿÿç
+ÿÿÿÿì
+ûFJÓNêÄþÍtF
+ûFâUóÏÖmF
+ûGþbÊ
+jÕÄþÍt
+òRnéKÏÖmq.HÂ0SÛf
+¼ÔöÿË
+ÿÿÿÿI
+0?úÿH
+ÿÿÿÿI
+0?úÿË
+0?úÿH
+ÿÿÿÿI
+0?úÿË
+4ÏüÿË
+Uxïc8
+IôzQ½
+IôzÓßµ5
+ÈãùÿË
+xTýÿI
+awÿÿI
+ðlýÿË
+-Pàb
+4öeÒoÿ
+3BEZÃ
+3èZ
+ÿR
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+ÍÉA -
+dÍÉA
+Guía para construir un Sistema Experto
+Lab. de Sistemas Inteligentes
+Normal
+Jorge Gutierrez
+Microsoft Office Word
+CCADET
+Guía para construir un Sistema Experto
+Título
+_PID_HLINKS
+þÿÿÿØ
+þÿÿÿýÿÿÿýÿÿÿýÿÿÿ
+þÿÿÿþÿÿÿþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿR
+ÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿ
+ÿÿÿÿÿÿÿÿÿÿÿÿ
+þÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+Documento de Microsoft Word 97-2003
+MSWordDoc
+Word.Document.8

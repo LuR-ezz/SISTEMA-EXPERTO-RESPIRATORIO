@@ -1,0 +1,305 @@
+
+SISTEMA EXPERTO PARA ORIENTACIÓN PRELIMINAR DE ENFERMEDADES RESPIRATORIAS
+Implementación de un SE para la orientación Preliminar de Enfermedades Respiratorias mediante Reglas de Inferencia.
+Área:
+Salud - enfermedades respiratorias
+Resultados considerados
+Patrón compatible con resfriado común. 
+Patrón compatible con influenza. 
+Sospecha de faringitis estreptocócica. 
+Patrón compatible con bronquitis aguda. 
+Signos de alarma → atención médica. 
+Resultado no concluyente.
+PASO 1. DESCRIPCIÓN DEL DOMINIO DE APLICACIÓN
+Dominio de aplicación:
+Área de la salud -> las enfermedades respiratorias.
+Herramienta de orientación preliminar capaz de analizar un conjunto de síntomas reportados por el usuario y compararlos con patrones clínicos representados mediante reglas.
+El dominio se restringirá a cuatro enfermedades:
+·  Resfriado común. 
+·  Influenza. 
+·  Faringitis estreptocócica. 
+·  Bronquitis aguda.
+Problema
+Las enfermedades respiratorias pueden compartir diversos síntomas, como tos, congestión nasal, dolor de garganta y fiebre.
+Por ejemplo, el CDC señala que la influenza puede producir fiebre, tos, dolor de garganta, congestión o secreción nasal, dolores musculares, cefalea y fatiga; algunos de estos síntomas también aparecen en el resfriado común. 
+Por ello, el sistema propuesto buscará representar conocimiento clínico básico mediante reglas que permitan diferenciar patrones compatibles con determinadas condiciones respiratorias.
+
+Delimitación:
+Analizar síntomas introducidos por el usuario, identificar el patrón que presenta mayor coincidencia con las reglas de conocimiento y proporcionar una orientación preliminar junto con una recomendación de atención.
+PASO 2. AISLAR EL ÁREA DE DESARROLLO DEL SISTEMA EXPERTO
+2.1. Especialidad:
+Medicina respiratoria / orientación de enfermedades respiratorias.
+2.2. Enfermedades consideradas:
+Código
+Condición
+D1
+Resfriado común
+D2
+Influenza
+D3
+Faringitis estreptocócica
+D4
+Bronquitis aguda
+D5
+Signos de alarma
+D6
+Resultado no concluyente
+2.3. Variables de entrada:
+A partir de las características clínicas encontradas en las fuentes, se seleccionan las siguientes variables.
+Código
+Variable
+Valores
+S01
+Fiebre
+Sí / No
+S02
+Inicio repentino
+Sí / No
+S03
+Tos
+Sí / No
+S04
+Secreción nasal
+Sí / No
+S05
+Congestión nasal
+Sí / No
+S06
+Estornudos
+Sí / No
+S07
+Dolor de garganta
+Sí / No
+S08
+Dolor al tragar
+Sí / No
+S09
+Dolor muscular/corporal
+Sí / No
+S10
+Fatiga
+Sí / No
+S11
+Amígdalas inflamadas
+Sí / No
+S12
+Placas/exudado en amígdalas
+Sí / No
+S13
+Ganglios cervicales inflamados
+Sí / No
+S14
+Mucosidad
+Sí / No
+S15
+Dificultad para respirar
+Sí / No
+S16
+Dolor/presión persistente en pecho
+Sí / No
+S17
+Confusión/mareo persistente
+Sí / No
+S18
+Síntomas mejoraron y luego empeoraron
+Sí / No
+S19
+Duración de síntomas
+≤7 días / 8–21 días / >21 días
+PASO 3. DECIDIR UN OBJETIVO PARA EL PROTOTIPO
+3.1. Objetivo general:
+Desarrollar un sistema experto basado en reglas IF-THEN que permita realizar una orientación preliminar de cuatro condiciones respiratorias comunes mediante el análisis de síntomas proporcionados por el usuario, identificando además signos de alarma que requieran atención médica.
+3.2. Objetivos específicos
+Identificar características clínicas relevantes de las condiciones respiratorias seleccionadas. 
+Representar dichas características mediante un conjunto de variables y valores. 
+Construir un diagrama de dependencias entre síntomas, reglas y resultados. 
+Elaborar tablas de decisión para las principales condiciones. 
+Transformar las tablas de decisión en reglas IF-THEN. 
+Implementar posteriormente el motor de inferencia en Python. 
+Desarrollar una interfaz utilizando Streamlit. 
+Proporcionar un resultado acompañado de una recomendación apropiada.
+PASO 4. CREAR EL DIAGRAMA DE DEPENDENCIAS
+La guía define este diagrama como una representación de las relaciones entre los factores críticos, preguntas, valores y recomendaciones que posteriormente formarán la base de conocimiento. 
+En nuestro caso tendremos dos niveles de inferencia.
+4.1 Nivel 1: signos de alarma
+Este nivel tiene prioridad.
+                    SÍNTOMAS DEL USUARIO
+                            │
+                            ▼
+                  ¿EXISTE SIGNO DE ALARMA?
+                     /               \
+                   SI                 NO
+                   │                   │
+                   ▼                   ▼
+          ATENCIÓN MÉDICA       CONTINUAR ANÁLISIS
+El CDC identifica como señales de emergencia en adultos, entre otras, dificultad para respirar, dolor o presión persistente en pecho/abdomen, confusión persistente, convulsiones, ausencia de orina, debilidad intensa y síntomas que mejoran pero posteriormente regresan o empeoran.
+
+
+
+
+
+
+4.2 Nivel 2: identificación del patrón respiratorio
+                 SÍNTOMAS
+                     │
+                     ▼
+             MOTOR DE INFERENCIA
+                     │
+       ┌──────┼───────┐
+       ▼            ▼            ▼
+  RESFRIADO      INFLUENZA   FARINGITIS
+       │            │            │
+       └──────┼───────┘
+                    │
+                    ▼
+               BRONQUITIS
+                    │
+                    ▼
+          RESULTADO PRELIMINAR
+4.3 Dependencia del resfriado
+El CDC describe el resfriado común mediante síntomas como secreción/congestión nasal, tos, estornudos, dolor de garganta, cefalea, dolores corporales leves y fiebre generalmente baja.
+Secreción nasal
+      +
+Congestión
+      +
+Estornudos
+      +
+Tos
+      +
+Dolor de garganta
+      ↓
+RESFRIADO COMÚN
+
+No todos los síntomas tienen que estar presentes.
+
+4.4 Dependencia de influenza
+El CDC describe la influenza como una enfermedad cuyos síntomas suelen aparecer repentinamente y que puede presentar fiebre, tos, dolor de garganta, congestión/secreción nasal, dolores musculares, cefalea y fatiga. 
+Inicio repentino
+       +
+Tos
+       +
+Fiebre o sensación febril
+       +
+Dolor muscular
+       +
+Fatiga
+       ↓
+INFLUENZA
+
+Importante: la ausencia de fiebre no descarta influenza, por lo que nuestra base de conocimiento no utilizará la fiebre como condición obligatoria.
+4.5 Dependencia de faringitis estreptocócica
+El CDC indica que la faringitis estreptocócica suele presentar fiebre, dolor al tragar y aparición repentina del dolor de garganta. También puede presentar ganglios cervicales anteriores inflamados, petequias del paladar y amígdalas inflamadas con o sin exudado. 
+Además, tos y secreción nasal son características que apuntan más hacia una infección viral.
+Dolor de garganta
+       +
+Inicio repentino
+       +
+Dolor al tragar
+       +
+Fiebre
+       +
+Amígdalas inflamadas
+       +
+Ausencia de tos
+       ↓
+SOSPECHA DE FARINGITIS
+ESTREPTOCÓCICA
+
+4.6 Dependencia de bronquitis aguda
+El CDC indica que la tos es el síntoma más común de la bronquitis aguda y puede presentarse con o sin mucosidad. También pueden existir congestión, dolor de garganta, cansancio y dolores corporales leves. Los síntomas normalmente duran menos de tres semanas. 
+
+Tos
+ │
+ ├── con mucosidad
+ │
+ ├── congestión
+ │
+ ├── dolor de garganta
+ │
+ └── duración < 3 semanas
+             │
+             ▼
+       BRONQUITIS AGUDA
+
+PASO 5. CREAR LAS TABLAS DE DECISIÓN
+La guía propone convertir las dependencias en tablas donde las combinaciones de valores de las condiciones conduzcan a una recomendación. 
+Para nuestro sistema no vamos a construir una tabla gigantesca con todas las combinaciones matemáticas posibles.
+En su lugar construiremos tablas de decisión clínicas, que luego serán convertidas en reglas.
+5.1 Tabla de signos de alarma
+Esta será la tabla con mayor prioridad.
+Dificultad respiratoria
+Dolor persistente pecho
+Confusión persistente
+Empeoramiento tras mejoría
+Acción
+Sí
+—
+—
+—
+Atención médica
+—
+Sí
+—
+—
+Atención médica
+—
+—
+Sí
+—
+Atención médica
+—
+—
+—
+Sí
+Evaluación médica
+No
+No
+No
+No
+Continuar análisis
+
+Estas condiciones están fundamentadas en los signos de advertencia publicados por CDC.
+
+5.2 Tabla de decisión: resfriado común
+Congestión
+Secreción nasal
+Estornudos
+Tos
+Dolor garganta
+Resultado
+Sí
+Sí
+Sí
+Sí
+Sí
+Resfriado
+Sí
+Sí
+Sí
+Sí
+No
+Resfriado
+Sí
+Sí
+Sí
+No
+Sí
+Resfriado
+Sí
+Sí
+No
+Sí
+Sí
+Compatible
+Sí
+No
+Sí
+Sí
+Sí
+Compatible
+No
+No
+No
+No
+No
+No concluyente

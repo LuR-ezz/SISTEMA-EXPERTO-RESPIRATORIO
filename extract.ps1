@@ -1,0 +1,1 @@
+ = New-Object -ComObject Word.Application; .Visible = False;  = .Documents.Open('c:\Users\luisa\OneDrive\Desktop\SISTEMA EXPERTO\Guía para construir un Sistema Experto (1).doc'); [System.IO.File]::WriteAllText('c:\Users\luisa\OneDrive\Desktop\SISTEMA EXPERTO\guia_extracted.txt', .Content.Text); .Close(); .Quit()
